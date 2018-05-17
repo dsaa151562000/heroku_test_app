@@ -1,0 +1,19 @@
+current directory: /Users/s/Desktop/syumatsu_work/heroku_test_app/vendo/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+/Users/s/.rbenv/versions/2.3.4/bin/ruby -r ./siteconf20180517-99168-nn5lnz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/s/Desktop/syumatsu_work/heroku_test_app/vendo/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/s/Desktop/syumatsu_work/heroku_test_app/vendo/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/s/Desktop/syumatsu_work/heroku_test_app/vendo/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20180517-99168-qrz417/byebug

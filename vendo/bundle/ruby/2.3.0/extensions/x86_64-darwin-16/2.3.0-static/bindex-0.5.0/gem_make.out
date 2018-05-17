@@ -1,0 +1,15 @@
+current directory: /Users/s/Desktop/syumatsu_work/heroku_test_app/vendo/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+/Users/s/.rbenv/versions/2.3.4/bin/ruby -r ./siteconf20180517-99168-wgd7bv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/s/Desktop/syumatsu_work/heroku_test_app/vendo/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/s/Desktop/syumatsu_work/heroku_test_app/vendo/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/s/Desktop/syumatsu_work/heroku_test_app/vendo/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20180517-99168-1pt7yo8/bindex
