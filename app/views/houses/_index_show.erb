@@ -1,0 +1,40 @@
+<% @page_title="Energy Records for One House"%>
+
+<div id="links" class="span-24 border">
+
+</div>
+
+<div id="house_info" class="span-6 border">
+
+  <h3>House information</h3>
+  <table summary="House information">
+    <tr>
+      <th>First Name</th>
+      <td><%= @house.first_name %></td>
+    </tr>
+    <tr>
+      <th>Last Name</th>
+      <td><%= @house.last_name %></td>
+    </tr>
+    <tr>
+      <th>City</th>
+      <td><%= @house.city %></td>
+    </tr>
+    <tr>
+      <th>Number of People</th>
+      <td><%= @house.num_of_people %></td>
+    </tr>
+    <tr>
+      <th>Has Child?</th>
+      <td><%= @house.has_child ? 'Yes' : 'No' %></td>
+    </tr>
+  </table>
+
+<ul>
+  <li>
+    <%= link_to "2011", EnergyProduction_2011_house_path() %></li>
+  <li>
+    <%= link_to "2012", EnergyProduction_2012_house_path() %></li>
+  <li>
+    <%= link_to "2013", EnergyProduction_2013_house_path() %></li>
+</ul>
