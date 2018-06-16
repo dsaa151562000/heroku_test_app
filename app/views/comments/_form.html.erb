@@ -1,0 +1,25 @@
+
+<%= form_for([event, comment]) do |f| %>
+    <% if comment.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= comment.errors.count %>件のエラーがあります。</h2>
+
+          <ul>
+            <% comment.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.text_field :event_id, value: event.id  %>
+    </div>
+
+    <div class="field">
+      <%= f.text_field :content, placeholder: "内容", class: "form-control"  %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

@@ -1,0 +1,2 @@
+class PrivacyPolicy < ApplicationRecord
+end
