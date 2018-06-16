@@ -9,6 +9,6 @@ task :default => :spec
 task :console do
   require 'rb-inotify'
   require 'pry'
-  
+
   binding.pry
 end
