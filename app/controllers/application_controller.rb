@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   #before_filter :basic_authentication unless Rails.env.development?
-  #before_action :basic_authentication unless Rails.env.development?
+  before_action :basic_authentication unless Rails.env.development?
 
 
   private

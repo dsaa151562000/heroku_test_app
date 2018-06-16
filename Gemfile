@@ -34,10 +34,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'chartkick'
-# gem 'pry'
-# gem 'pry-byebug'
-# gem 'pry-doc'
-# gem 'pry-rails'
+gem 'pry'
+gem 'pry-byebug'
+gem 'pry-doc'
+gem 'pry-rails'
 
 
 gem 'devise'
