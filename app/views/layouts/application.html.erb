@@ -28,11 +28,10 @@
   <%= javascript_include_tag "https://semantic-ui.com/javascript/library/semantic.min.js" %>
   <%= javascript_include_tag "https://semantic-ui.com/javascript/library/docs.js" %>
 
-  <link rel="stylesheet" type="text/css" class="ui" href="css/semantic.min.css">
+  <%= stylesheet_link_tag "https://semantic-ui.com/dist/semantic.min.css" %>
+  <%= stylesheet_link_tag "https://semantic-ui.com/stylesheets/docs.css" %>
+  <%= stylesheet_link_tag "https://semantic-ui.com/stylesheets/rtl.css" %>
 
-
-  <link rel="stylesheet" type="text/css" href="css/docs.css">
-  <link rel="stylesheet" type="text/css" href="css/rtl.css">
   <style type="text/css">
     #example .main.container {
       padding: 0em 0em 0em;
@@ -96,10 +95,8 @@
       border: 1px solid rgba(34,36,38,.15);
     }
   </style>
-
-
-
-  <link rel="stylesheet" href="css/smartphoto.min.css">
+  
+  <%= stylesheet_link_tag "https://semantic-ui.com/stylesheets/rtl.css" %>
   <%= javascript_include_tag "https://unpkg.com/smartphoto@latest/js/smartphoto.min.js" %>
   <script type="text/javascript">
       document.addEventListener('DOMContentLoaded',function(){
