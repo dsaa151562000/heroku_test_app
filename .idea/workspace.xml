@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a139fd1-0217-49e0-9340-a09dd8546d2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-83">
@@ -92,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="51" />
+              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -180,7 +180,6 @@
         <option value="$PROJECT_DIR$/app/models/terms_of_service.rb" />
         <option value="$PROJECT_DIR$/vendo/bundle/ruby/2.3.0/gems/rb-inotify-0.9.10/Rakefile" />
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/customer/webview/external/v1/restaurants_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180616081850_create_restaurants.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -233,6 +233,12 @@
               <item name="heroku_test_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="heroku_test_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heroku_test_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heroku_test_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heroku_test_app" type="b2602c69:ProjectViewProjectNode" />
@@ -471,7 +477,7 @@
       <updated>1526706636658</updated>
       <workItem from="1526706643411" duration="23351000" />
       <workItem from="1527428465883" duration="7562000" />
-      <workItem from="1527924005803" duration="45112000" />
+      <workItem from="1527924005803" duration="45393000" />
     </task>
     <servers />
   </component>
@@ -481,7 +487,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76025000" />
+    <option name="totallyTimeSpent" value="76306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="51" width="1385" height="599" extended-state="0" />
@@ -910,18 +916,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-83">
           <caret line="3" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding />
         </state>
       </provider>

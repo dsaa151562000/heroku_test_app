@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
 
   def basic_authentication
     authenticate_or_request_with_http_basic do |user, pass|
-      user == 'vook.admin' && pass == 'adoirinc2012'
+      user == 'aaaaaa' && pass == 'bbbbbb'
     end
   end
 end
