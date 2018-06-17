@@ -16,20 +16,17 @@
   <meta name="description" content="A tab is a hidden section of content activated by a menu" />
   <meta name="keywords" content="html5, ui, library, framework, javascript" />
 
-  <script src="js/detect.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/clipboard.min.js"></script>
-  <script src="js/cookie.min.js"></script>
-  <script src="js/easing.min.js"></script>
-  <script src="js/highlight.min.js"></script>
-  <script src="js/history.min.js"></script>
-  <script src="js/tablesort.min.js"></script>
-  <script src="js/underscore.min.js"></script>
-
-
-  <script src="js/semantic.min.js"></script>
-
-  <script src="js/docs.js"></script>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/detect.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/jquery.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/clipboard.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/cookie.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/easing.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/highlight.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/history.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/tablesort.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/underscore.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/semantic.min.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/docs.js" %>
 
   <link rel="stylesheet" type="text/css" class="ui" href="css/semantic.min.css">
 
@@ -103,7 +100,7 @@
 
 
   <link rel="stylesheet" href="css/smartphoto.min.css">
-  <script src="js/smartphoto.min.js"></script>
+  <%= javascript_include_tag "https://unpkg.com/smartphoto@latest/js/smartphoto.min.js" %>
   <script type="text/javascript">
       document.addEventListener('DOMContentLoaded',function(){
           new SmartPhoto(".js-smartPhoto");
@@ -114,9 +111,8 @@
 <body id="example" class="" ontouchstart="">
 
 <div class="article">
-  <script src="js/sinon.js"></script>
-  <script src="js/tab.js"></script>
-
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/library/sinon.js" %>
+  <%= javascript_include_tag "https://semantic-ui.com/javascript/tab.js" %>
 
 
   <div class="ui masthead vertical tab segment">
