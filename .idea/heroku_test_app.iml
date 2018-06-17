@@ -375,6 +375,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="jquery-rails (vbundled(4.3.3)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.3.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.3.3/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.3.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.3.3/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="listen (vbundled(3.1.5)) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/listen-3.1.5/bin" />
@@ -815,6 +827,16 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-rails-5.0.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="seed-fu (vbundled(2.3.9)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/seed-fu-2.3.9/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/seed-fu-2.3.9/lib" />
         </SOURCES>
       </library>
     </orderEntry>

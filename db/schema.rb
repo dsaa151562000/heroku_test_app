@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180605124430) do
+ActiveRecord::Schema.define(version: 20180616081850) do
 
   create_table "addresses", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "zipcode"
@@ -91,6 +91,18 @@ ActiveRecord::Schema.define(version: 20180605124430) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["profilable_type", "profilable_id"], name: "index_profiles_on_profilable_type_and_profilable_id"
+  end
+
+  create_table "restaurants", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name", null: false
+    t.string "name_kana", null: false
+    t.string "tel"
+    t.string "zipcode", null: false
+    t.text "address", null: false
+    t.time "business_start_time"
+    t.time "business_end_time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "terms_of_services", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|

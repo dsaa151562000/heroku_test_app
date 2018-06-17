@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  name_kana: MyString
+  tel: MyString
+  zipcode: MyString
+  address: MyText
+  business_start_time: 2018-06-16 17:18:50
+  business_end_time: 2018-06-16 17:18:50
+
+two:
+  name: MyString
+  name_kana: MyString
+  tel: MyString
+  zipcode: MyString
+  address: MyText
+  business_start_time: 2018-06-16 17:18:50
+  business_end_time: 2018-06-16 17:18:50

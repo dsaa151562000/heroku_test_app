@@ -1,15 +1,339 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>HerokuTestApp</title>
-    <%= csrf_meta_tags %>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
-  </head>
+  <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-  <body>
-    <%= yield %>
-  </body>
+  <!-- Site Properities -->
+  <meta name="generator" content="DocPad v6.79.4" />
+  <title>店鋪詳細情報 | 寿司ビスポ</title>
+
+  <meta name="description" content="A tab is a hidden section of content activated by a menu" />
+  <meta name="keywords" content="html5, ui, library, framework, javascript" />
+
+  <script src="js/detect.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/clipboard.min.js"></script>
+  <script src="js/cookie.min.js"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/highlight.min.js"></script>
+  <script src="js/history.min.js"></script>
+  <script src="js/tablesort.min.js"></script>
+  <script src="js/underscore.min.js"></script>
+
+
+  <script src="js/semantic.min.js"></script>
+
+  <script src="js/docs.js"></script>
+
+  <link rel="stylesheet" type="text/css" class="ui" href="css/semantic.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="css/docs.css">
+  <link rel="stylesheet" type="text/css" href="css/rtl.css">
+  <style type="text/css">
+    #example .main.container {
+      padding: 0em 0em 0em;
+    }
+
+    /* Additional Padding for Fixed Menu */
+    #example .masthead.segment {
+      padding-top: 2em;
+    }
+
+    .ui.small.images02 img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .float_right{
+      float: right;
+    }
+
+    .review_list{
+      margin: 0px;
+      padding: 0 0 0 10px;
+    }
+
+    #map {
+      width: 100%;
+      height: 400px;
+    }
+
+    .ui.segment02 {
+      position: relative;
+      background: #fff;
+      -webkit-box-shadow: 0 1px 2px 0
+      rgba(34,36,38,.15);
+      box-shadow: 0 1px 2px 0
+      rgba(34,36,38,.15);
+      margin: 0.5em 0;
+      padding: 1em 1em;
+      border-radius: .28571429rem;
+      border: 1px solid rgba(34,36,38,.15);
+    }
+
+    .margin_top_20{
+      margin-top: -20px;
+    }
+
+
+    .ui.segment02 {
+      position: relative;
+      background: #fff;
+      -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+      box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+      margin: 0;
+      padding: 1em 1em;
+      border-radius: .28571429rem;
+      border: 1px solid rgba(34,36,38,.15);
+    }
+  </style>
+
+
+
+  <link rel="stylesheet" href="css/smartphoto.min.css">
+  <script src="js/smartphoto.min.js"></script>
+  <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded',function(){
+          new SmartPhoto(".js-smartPhoto");
+      });
+  </script>
+
+</head>
+<body id="example" class="" ontouchstart="">
+
+<div class="article">
+  <script src="js/sinon.js"></script>
+  <script src="js/tab.js"></script>
+
+
+
+  <div class="ui masthead vertical tab segment">
+    <div class="ui container">
+      <div class="introduction">
+
+        <div class="ui segment">
+          <img class="ui centered medium image" src="img/sushi.png">
+        </div>
+        <h4 class="ui dividing header center">寿司ビスポ</h4>
+
+
+        <!-- タブメニュー-->
+        <div class="ui three item tabs menu buttons blue">
+
+          <a class="active item" data-tab="definition">料理写真</a>
+
+          <a class="item" data-tab="examples">店舗情報</a>
+
+          <a class="item" data-tab="usage">レビュー</a>
+        </div>
+        <!-- タブメニュー-->
+
+
+      </div>
+    </div>
+
+    <!-- コンテンツ本体-->
+    <div class="main ui container">
+
+
+      <div class="ui active tab" data-tab="definition">
+
+        <div class="column">
+          <div class="ui small images center ">
+            <a href="img/03.jpg" class="js-smartPhoto" data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/03.jpg"></a>
+            <a href="img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/04.jpg"></a>
+            <a href="img/01.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/01.jpg"></a>
+            <a href="img/02.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/02.jpg"></a>
+            <a href="img/03.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/03.jpg"></a>
+            <a href="img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/04.jpg"></a>
+            <a href="img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/06.jpg"></a>
+            <a href="img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/06.jpg"></a>
+            <a href="img/03.jpg" class="js-smartPhoto" data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/03.jpg"></a>
+            <a href="img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/04.jpg"></a>
+            <a href="img/01.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/01.jpg"></a>
+            <a href="img/02.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/02.jpg"></a>
+            <a href="img/03.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/03.jpg"></a>
+            <a href="img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/04.jpg"></a>
+            <a href="img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/06.jpg"></a>
+            <a href="img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/06.jpg"></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="ui tab" data-tab="examples">
+
+        <div class="column">
+          <h4>渋谷で赤酢の本格的な江戸前寿司が食べられます。(今の主流とは違うネタをお出ししています)</h4>
+          <p>今のお寿司の主流とは真逆の昔ながらの仕事(手間)をしています。 江戸時代からはじまったお寿司は今とは違う工夫をし、お寿司を楽しんで食べてました。 今ではその伝統を本格的にやっているお寿司屋さんは数件しかないと言われています。 鮨須賀ではその時間と手間の掛かる仕込みを大将が丁寧に惜しまず向き合って仕事をしています。 お寿司を本当に好きな方を含めて色んな方に食べて頂きたい気持ちでいますので、 是非「伝統ある江戸前寿司」を食べにいらして下さい。 2016年11月に「大人の週末」にも掲載されました。</p>
+          　　　</div>
+
+
+        <div class="column">
+          <div class="ui small images02 center ">
+            <a href="img/03.jpg" class="js-smartPhoto" data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/03.jpg"></a>
+            <a href="img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/04.jpg"></a>
+            <a href="img/01.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="img/01.jpg"></a>
+          </div>
+        </div>
+
+        <div class="ui segment">
+          <h4 class="ui header">シェフからの一言</h4>
+          <img class="ui small left floated image" src="img/07.jpg">
+          <p>お寿司を本当に好きな方を含めて色んな方に食べて頂きたい気持ちでいますので、 是非「伝統ある江戸前寿司」を食べにいらして下さい。 2016年11月に「大人の週末」にも掲載されました。</p>
+        </div>
+
+
+        <div class="ui segment">
+          <h4 class="ui header">お店の場所</h4>
+          <div id="maps"></div>
+          <p><style>
+            #maps{
+              height: 300px;
+              margin-bottom: 1.6rem;
+            }
+          </style>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj0XcQyjOihGPjc1dNtAsEOvNGF5UuOrY&callback=initMap" async></script></p>
+
+          <script>
+              function initMap() {
+
+                  var mapPosition = {lat: 35.657176, lng: 139.698935}
+
+                  var mapArea = document.getElementById('maps');
+                  var mapOptions = {
+                      center: mapPosition,
+                      zoom: 16,
+                  };
+
+                  var map = new google.maps.Map(mapArea, mapOptions);
+              }
+          </script>
+
+
+        </div>
+      </div>
+
+
+      <div class="ui intro tab" data-tab="usage">
+
+        　　　<div class="ui segment">
+        <div class="content">
+          <img class="ui avatar image" src="img/08.jpg"> ujway(33)
+          <div class = "float_right">
+            男性</div>
+        </div>
+        <div class="ui star rating" data-rating="4"><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i></div>
+        <div class="ui segment">
+          <ul class="review_list">
+            <li><span >希望来店時間  :</span><span>2018/07/01   </span><span>18:00〜   </span></li>
+            <li><span >人数  :</span><span>15名  </span>
+            <li><span >一人あたりの予算  :</span><span>6500円 </span>
+            <li><span >コース内容  :</span><span>グルテンフリーイタリアンコース</span>
+          </ul>
+        </div>
+      </div>
+
+        <div class="ui segment">
+          <div class="content">
+            <img class="ui avatar image" src="img/08.jpg"> ujway(33)
+            <div class = "float_right">
+              男性</div>
+          </div>
+          <div class="ui star rating" data-rating="4"><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i></div>
+          <div class="ui segment">
+            <ul class="review_list">
+              <li><span >希望来店時間  :</span><span>2018/07/01   </span><span>18:00〜   </span></li>
+              <li><span >人数  :</span><span>15名  </span>
+              <li><span >一人あたりの予算  :</span><span>6500円 </span>
+              <li><span >コース内容  :</span><span>グルテンフリーイタリアンコース</span>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ui segment">
+          <div class="content">
+            <img class="ui avatar image" src="img/08.jpg"> ujway(33)
+            <div class = "float_right">
+              男性</div>
+          </div>
+          <div class="ui star rating" data-rating="4"><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i></div>
+          <div class="ui segment">
+            <ul class="review_list">
+              <li><span >希望来店時間  :</span><span>2018/07/01   </span><span>18:00〜   </span></li>
+              <li><span >人数  :</span><span>15名  </span>
+              <li><span >一人あたりの予算  :</span><span>6500円 </span>
+              <li><span >コース内容  :</span><span>グルテンフリーイタリアンコース</span>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ui segment">
+          <div class="content">
+            <img class="ui avatar image" src="img/08.jpg"> ujway(33)
+            <div class = "float_right">
+              男性</div>
+          </div>
+          <div class="ui star rating" data-rating="4"><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i></div>
+          <div class="ui segment">
+            <ul class="review_list">
+              <li><span >希望来店時間  :</span><span>2018/07/01   </span><span>18:00〜   </span></li>
+              <li><span >人数  :</span><span>15名  </span>
+              <li><span >一人あたりの予算  :</span><span>6500円 </span>
+              <li><span >コース内容  :</span><span>グルテンフリーイタリアンコース</span>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+  <div id="sample"></div>
+
+</div>
+
+<div class="ui black inverted vertical footer segment">
+  <div class="ui center aligned container">
+    <div class="ui stackable inverted grid">
+      <div class="three wide column">
+        <h4 class="ui inverted header">Community</h4>
+        <div class="ui inverted link list">
+          <a class="item" href="https://www.transifex.com/organization/semantic-org/" target="_blank">Help Translate</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+    window.less = {
+        async        : true,
+        environment  : 'production',
+        fileAsync    : false,
+        onReady      : false,
+        useFileCache : true
+    };
+</script>
+
+<script src="js/less.min.js"></script>
+
+</body>
 </html>
