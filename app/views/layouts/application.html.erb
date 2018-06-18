@@ -42,10 +42,18 @@
       padding-top: 2em;
     }
 
-    .ui.small.images02 img {
+    .ui.small.image, .ui.small.images .image, .ui.small.images img, .ui.small.images svg {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      font-size: .92857143rem;
+    }
+
+    .ui.small.imag02, .ui.small.images02 .image02, .ui.small.images02 img, .ui.small.images02 svg {
       width: 100px;
-      height: auto;
-      margin-bottom: 10px;
+      height: 80px;
+      object-fit: cover;
+      font-size: .92857143rem;
     }
 
     .center {
@@ -79,10 +87,10 @@
       border: 1px solid rgba(34,36,38,.15);
     }
 
-    .margin_top_20{
+    .marrin_top_-20 {
+      position: relative;
       margin-top: -20px;
     }
-
 
     .ui.segment02 {
       position: relative;
@@ -106,8 +114,6 @@
 
 </head>
 <body id="example" class="" ontouchstart="">
-
-<div class="article">
   <%= javascript_include_tag "https://semantic-ui.com/javascript/library/sinon.js" %>
   <%= javascript_include_tag "https://semantic-ui.com/javascript/tab.js" %>
 
@@ -125,11 +131,11 @@
         <!-- タブメニュー-->
         <div class="ui three item tabs menu buttons blue">
 
-          <a class="active item" data-tab="definition">料理写真</a>
+          <a class="active item" data-tab="photos">料理写真</a>
 
-          <a class="item" data-tab="examples">店舗情報</a>
+          <a class="item" data-tab="shop_info">店舗情報</a>
 
-          <a class="item" data-tab="usage">レビュー</a>
+          <a class="item " data-tab="review">レビュー</a>
         </div>
         <!-- タブメニュー-->
 
@@ -141,32 +147,32 @@
     <div class="main ui container">
 
 
-      <div class="ui active tab" data-tab="definition">
+      <div class="ui active tab" data-tab="photos">
 
         <div class="column">
           <div class="ui small images center ">
-            <a href="https://guarded-shore-54515.herokuapp.com/img/03.jpg" class="js-smartPhoto" data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/03.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/04.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/01.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/01.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/02.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/02.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/03.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/03.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/04.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/06.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/06.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/03.jpg" class="js-smartPhoto" data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/03.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/04.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/01.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/01.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/02.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/02.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/03.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/03.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/04.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/06.jpg"></a>
-            <a href="https://guarded-shore-54515.herokuapp.com/img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img src="https://guarded-shore-54515.herokuapp.com/img/06.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/03.jpg" class="js-smartPhoto" data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/03.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/04.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/01.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/01.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/02.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/02.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/03.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/03.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/04.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/06.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/06.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/03.jpg" class="js-smartPhoto" data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/03.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/04.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/01.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/01.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/02.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/02.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/03.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/03.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/04.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/04.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/06.jpg"></a>
+            <a href="https://guarded-shore-54515.herokuapp.com/img/06.jpg" class="js-smartPhoto"  data-caption="寿司ビスポ" data-id="bear" data-group="animal"><img  class= "bordered image" src="https://guarded-shore-54515.herokuapp.com/img/06.jpg"></a>
           </div>
         </div>
 
       </div>
 
-      <div class="ui tab" data-tab="examples">
+      <div class="ui tab" data-tab="shop_info">
 
         <div class="column">
           <h4>渋谷で赤酢の本格的な江戸前寿司が食べられます。(今の主流とは違うネタをお出ししています)</h4>
@@ -221,7 +227,7 @@
       </div>
 
 
-      <div class="ui intro tab" data-tab="usage">
+      <div class="ui intro tab marrin_top_-20" data-tab="review">
 
         　　　<div class="ui segment">
         <div class="content">
@@ -259,7 +265,7 @@
 
         <div class="ui segment">
           <div class="content">
-            <img class="ui avatar image" src="https://guarded-shore-54515.herokuapp.com/img/08.jpg"> ujway(33)
+            <img class="ui avatar image" src="img/08.jpg"> ujway(33)
             <div class = "float_right">
               男性</div>
           </div>
@@ -314,7 +320,6 @@
     </div>
 
   </div>
-</div>
 
 
 <script>
